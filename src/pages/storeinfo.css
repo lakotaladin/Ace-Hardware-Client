@@ -1,0 +1,52 @@
+.global-store {
+    overflow-x: hidden;
+    height: auto;
+}
+
+.globall {
+    height: auto;
+    margin: 1% 0% 0% 0%;
+    overflow-x: hidden;
+    background-color: #EEEEEE;
+}
+
+.navigation-container {
+    margin-bottom: 2%;
+}
+
+.navigation-container a {
+    color: grey;
+}
+
+.arrow-left {
+    transform: scale(0.8);
+}
+
+.containerr {
+    width: 80%;
+    display: flex;
+    margin: 1% auto auto auto;
+}
+
+.name-store {
+    background-color: white;
+}
+
+.check {
+    margin: 0px 5px 0px 0px;
+    padding: 0%;
+    width: 20px;
+    height: 20px;
+}
+
+.change-store {
+    font-size: 14px;
+    margin: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.card {
+    border-radius: 0% !important;
+    border: none !important;
+}

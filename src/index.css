@@ -1,0 +1,21 @@
+html {
+  scroll-behavior: smooth !important;
+}
+
+* {
+  box-sizing: border-box !important;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  cursor: pointer;
+}
+body {
+  width: 100% !important;
+  overflow-x: hidden;
+  background-color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

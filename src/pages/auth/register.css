@@ -1,0 +1,185 @@
+.navigation-login {
+    border-bottom: 1px solid lightgrey;
+    z-index: 9999999 !important;
+}
+
+.nav-container {
+    margin: auto;
+    width: 80%;
+    height: auto;
+}
+
+.back-div {
+    width: auto;
+    font-weight: 500;
+    margin-left: 10%;
+}
+
+
+.link-arrow {
+    color: black;
+    margin-top: 6%;
+}
+
+.link-arrow:hover {
+    color: black;
+}
+
+.ace-logo {
+    margin: auto;
+    align-items: center;
+}
+
+
+.arrow-back {
+    width: 18px;
+}
+
+/* Login section */
+
+.section-globall {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden !important;
+}
+
+
+.form-container {
+    min-width: 500px !important;
+    border: 1px solid #CCCCCC;
+    border-top: 5px solid #D40029;
+    border-radius: 5px;
+    margin: 2% auto auto auto;
+    justify-content: center;
+}
+
+.form-register {
+    padding: 0%;
+    height: auto;
+}
+
+.input-form {
+    width: 100%;
+    margin-bottom: 5px;
+        padding: 3%;
+    border: 1px solid #ACACAC;
+    border-radius: 4px;
+}
+.ant-select-selection-item {
+    /*  */
+}
+
+.ant-select-selector {
+    border: 1px solid #ACACAC !important;
+}
+
+.selectInputs {
+    height: 45px;
+}
+
+
+.email-pass-div {
+    padding: 7% 7% 0% 7%;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.email-pass-div2 {
+    padding: 7%;
+}
+
+.email-div3 {
+    padding: 7%;
+    border-top: 7px solid #EEEEEE;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+
+.button {
+    background-color: #D40029;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 13px;
+}
+
+.button:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+}
+
+
+.button-div {
+    padding-bottom: 5%;
+}
+
+/* Account container */
+
+.account-container {
+    padding: 0% 7% 0% 7%;
+    height: auto;
+}
+
+
+
+.form-check-input {
+    transform: scale(0.9);
+    border: 1px solid black;
+}
+
+.form-check-label {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.form-check-label-privacy {
+    font-size: 13px;
+    width: 370px;
+    font-weight: 400;
+}
+
+.form-check-label-privacy a {
+    color: #D40029;
+    text-decoration: underline;
+}
+
+.button-account {
+    background-color: white;
+    border: 1px solid #D40029;
+    color: #D40029;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 13px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.button-account:hover {
+    background-color: #fbe6e5;
+    transition: background-color 0.2s linear;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #424242;
+    color: white;
+    margin-top: 3%;
+    justify-content: center;
+    height: auto;
+}
+
+.ant-input {
+    margin: 1% 0% 0% 0% !important;
+}
+.contact-div {
+    margin: auto;
+    justify-content: center;
+}
+
+
+.privacy {
+    justify-content: center;
+    align-items: center;
+}
+

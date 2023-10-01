@@ -1,0 +1,136 @@
+/* User navigation */
+.navigation-container {
+    margin-bottom: 2%;
+}
+
+.navigation-container a {
+    color: grey;
+}
+
+.arrow-left {
+    transform: scale(0.8);
+}
+
+.accountInfo {
+    width: 80%;
+    display: flex;
+    margin: 1% 9% 0% 9%;
+}
+
+
+/* Nav */
+.nav-bar {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 3px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	/* justify-content: center; */
+    align-items: stretch;
+}
+
+.nav {
+	padding: 20px 25px 30px;
+	color: black;
+    font-weight: 400;
+	text-align: center;
+    text-decoration: none;
+}
+
+
+.nav:hover {
+    color: black;
+    /* border-bottom: 5px solid #D40029; */
+}
+
+.active {
+    border-bottom: 5px solid #D40029;
+}
+
+/* Section style */
+
+.global-profile {
+    background-color: #F7F7F7;
+    overflow-x: hidden;
+}
+
+.container-profile {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+} 
+
+.card-one {
+    
+    padding:  0% 3% 3% 3%;
+    border-right: 1px solid lightgrey;
+}
+
+.card-two {
+    padding:  0% 3% 3% 3%;
+}
+
+.button-pay {
+   border: 1px solid lightgrey;
+   padding: 1%;
+   width: 175px;
+   height: 50px;
+   background-color: white; 
+}
+
+.form-account label {
+   font-weight: 400;
+   margin: 1px;
+}
+
+.form-account input {
+    padding: 1%;
+    border: 1px solid lightgray;
+    border-radius: 0%;
+}
+ 
+.input-password {
+    padding: 1%;
+    border: 1px solid lightgray;
+    border-radius: 0%;
+}
+
+
+.check-box {
+    margin-right: 1%;
+    padding: 0%;
+}
+
+
+.button-save {
+    padding: 1%;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: 2%;
+    background-color:#D40029;
+    width: 150px;
+    height: 50px;
+}
+
+
+/* Location */
+
+
+.logo-ace {
+    width: 80%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.section-two {
+    height: 70%;
+}
+
+.change-store {
+    border: none;
+    width: 200px;
+    background-color: #D40029;
+    border-radius: 0%;
+}

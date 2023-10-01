@@ -1,0 +1,127 @@
+.homeglobal {
+    overflow-x: hidden;
+}
+
+.homecontainer {
+    margin: 0.2% auto auto auto;
+    width: 80%;
+    height: auto;
+}
+
+
+.rowcontainer{
+    height: auto;
+} 
+
+.card {
+    width: 90%;
+    box-shadow: none !important;
+}
+
+.card, .card-footer {
+    background-color: #EEEE;
+}
+.bodycard {
+    height: auto !important;
+    margin: 0% !important;
+    padding-bottom:0% !important;
+}
+
+.linkcard:hover {
+    font-weight: 500;
+}
+.card-footer{
+    border: 1px solid #EEEE;
+    margin: 0% !important;
+    padding: 3%;
+}
+
+.imgcard {
+    height: 223px;
+}
+
+.card-text {
+    color: black;
+}
+
+/* Details div */
+
+.detailsdiv{
+    width: 98%;
+}
+
+.details{
+    width: 98%;
+    margin: 4% 0% 4% 0% !important;
+    background-color: white;
+}
+.details:hover{
+    background-color: white;
+}
+
+.detailsdiv{
+    background-color: white;
+}
+
+.detailstext {
+    background-color: white;
+}
+/* Link od kartica */
+.card-title {
+   color: black !important;
+   font-weight: bold;
+}
+.textlink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textlink:hover {
+    text-decoration: underline !important;
+    color: black !important;
+}
+
+.category-div .card {
+    width: 90% !important;
+    height: auto !important;
+}
+@media only screen and (max-width: 700px) {
+    .homecontainer {
+        width: 100%;
+        height: auto;
+    }
+
+    .rowcontainer {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cardrow {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .yetiimg {
+        width: 80%;
+        position: 100% 100%;
+    }
+}
+
+/* @media only screen and (max-width: 1300px) {
+    .rowcontainer {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        height: auto;
+        flex-direction: wrap;
+    }
+
+    .cardrow {
+        margin: auto;
+        display: flex;
+    }
+} */

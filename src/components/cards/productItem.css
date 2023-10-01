@@ -1,0 +1,6 @@
+.container {
+    width: 100% !important;
+    position: relative;
+    overflow: hidden;
+    /* background-color: #ccc !important; */
+}

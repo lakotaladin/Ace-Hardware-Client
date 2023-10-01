@@ -1,0 +1,389 @@
+.brandscascader:hover{
+  background-color: white !important;
+}
+.ant-menu-submenu-title:hover {
+  background-color: white !important; 
+}
+.brand-1:hover{
+  background-color: white !important;
+}
+.brand-2:hover{
+  background-color: white !important;
+}
+
+.cascader {
+  color: #333333 !important;
+  font-size: 16px !important;
+  margin-right: 15px !important;
+  padding: 3px 0px 0px 0px;
+  position: relative;
+}
+
+.cascader .ant-space-item:hover::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 8px;
+  height: 2px;
+  width: 100%;
+  background-color: #D30029;
+}
+
+
+.custom-menu-items {
+  font-weight: 600;
+}
+
+
+/* Kraj */
+.ant-menu-horizontal {
+    border: none !important;
+}
+
+.global-header{
+    font-size: 12px;
+    height: auto;
+}
+
+.global-header a {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.global-header a:hover {
+    color: black;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.custom-menu-item {
+    font-size: 15px;
+    font-weight: 600;
+    color: #333333;
+}
+.info-div{
+    margin: auto;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #EEEEEE;
+    justify-content: space-between;
+}
+
+.info-one{
+    margin: auto auto auto 10%;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.info-text {
+    padding-top: 1%; /* center text */
+    font-weight: 400;
+}
+
+.info-two{
+    margin: auto;
+    width: 30%;
+    justify-content: end;
+    display: flex;
+    flex-direction: row;
+}
+.info-two a{
+    padding-left: 2%;
+    font-size: 12px;
+}
+
+/* Logo, search and login/register section */
+
+.Header-global-center-div {
+    
+    padding: 0.5%;
+}
+
+
+.Logo-search-global {
+    margin: auto;
+    max-width: 82%;
+}
+
+.Logo-search-div {
+    flex-direction: row;
+    align-items: center;
+}
+
+#ace_logo {
+    margin: 1%;
+    width: 150px;
+    height: 80px;
+}
+
+
+#search-icon {
+    transform: scale(2.5);
+    font-weight: 400;
+    color: #D30029;
+}
+.login-and-register-section {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.login-and-register-section b {
+    font-size: 15px;
+    
+}
+
+.login-and-register-section p {
+    font-size: 14px;
+    
+}
+
+.header-login-register-section {
+    width: 40%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-align: start;
+    padding: 1%;
+}
+
+.header-login-register-section-logged {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-align: start;
+    padding: 1%;
+}
+
+.header-login-register-section  a{
+    text-decoration: none !important;
+}
+
+.header-login-register-section p{
+    margin: auto;
+}
+
+
+.headerLogo {
+    width: 30px;
+}
+
+.grillsandsmokerslink:hover {
+  color: black;
+  font-weight: 700;
+}
+
+/* Location section */
+
+.location-header-section {
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    border-top: 5px solid #D30029;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.16), 0 1px 10px rgba(0,0,0,0.23);
+    max-width: 100%;
+    height: 60px;
+}
+
+/* Location header container */
+
+.location-container {
+    padding: 0%;
+    min-width: 82%;
+    display: flex;
+    text-align: center;
+    height: 100px;
+
+}
+
+
+.location-content{
+    padding: 1%;
+    width: auto;
+    height: 100px;
+}
+
+.location-text {
+    font-size: 14px;
+    flex-direction: column;
+    text-align: start;
+}
+
+.location-text b {
+    font-size: 13px;
+    margin: 0% 3px 0% 0px;
+}
+
+
+.location-text p {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* Dropdown user  */
+.dropdown-container-user {
+    position: relative;
+    display: inline-block;
+  }
+
+ .arrow-user {
+    transform: scale(0.9);
+ }
+  
+  .dropdown-content-user {
+    display: block;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    z-index: 99999999999999 !important;
+    top: 100%; /* Postavlja dropdown ispod teksta */
+    left: 0;
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 150px; /* Prilagodite širinu prema vašim potrebama */
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: lightgrey;
+  }
+
+/* For store and map - Store info & Directions */
+.dropdown-containerr {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-contentt {
+    display: block;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    /* background-color:aqua; */
+    background-color: rgba(153, 153, 153, 0.5);
+    z-index: 99999999999999 !important;
+    top: 160%; 
+    /* left: 0; */
+    right: -1100%;
+    padding: 0px;
+    border-radius: 5px;
+    min-width: 2800px;
+    height: 162vh; 
+  }
+
+  .store-dropdown {
+    width: 50%;
+    height: 25%;
+    padding: 1% 3% 1% 3%;
+  }
+
+  .drop-content {
+    width: 18%;
+    height: 320px;
+    z-index: 999999999900;
+  }
+  .rewards {
+    height: 300px;
+    border-left: 1px solid lightgrey;
+    padding-left: 5%;
+  }
+
+  .details:hover {
+    background-color: #EEEEEE;
+  }
+  
+  /* Dropdown for Services & Brands */
+  .dropdown-containerrr {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-contenttt {
+    display: block;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    /* background-color:aqua; */
+    background-color: rgba(153, 153, 153, 0.5);
+    z-index: 99999999999999 !important;
+    top: 160%; 
+    /* left: 0; */
+    right: -1280%;
+    padding: 0px;
+    border-radius: 5px;
+    min-width: 3000px;
+    height: 162vh; 
+  }
+
+  .store-dropdownn {
+    width: 50%;
+    height: 25%;
+    padding: 1% 3% 1% 3%;
+  }
+
+  .drop-contentt {
+    width: 18%;
+    height: 320px;
+    z-index: 999999999900;
+  }
+
+  .rewardss {
+    width: 20%;
+    height: 300px;
+    padding-left: 5%;
+    padding-top: 4%;
+  }
+
+
+/* Dropdown */
+
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 99999999999999 !important;
+    top: 100%; /* Postavlja dropdown ispod teksta */
+    left: 0;
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 150px; /* Prilagodite širinu prema vašim potrebama */
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: lightgrey;
+  }
+
+  

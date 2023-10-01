@@ -1,0 +1,148 @@
+.navigation-login {
+    border-bottom: 1px solid lightgrey;
+    z-index: 9999999 !important;
+}
+
+.nav-container {
+    margin: auto;
+    width: 80%;
+    height: auto;
+}
+
+.back-div {
+    width: auto;
+    font-weight: 500;
+    margin-left: 10%;
+}
+
+
+.link-arrow {
+    color: black;
+    margin-top: 6%;
+}
+
+.link-arrow:hover {
+    color: black;
+}
+
+.ace-logo {
+    margin: auto;
+    align-items: center;
+}
+
+
+.arrow-back {
+    width: 18px;
+}
+
+/* Login section */
+
+.section-global {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden !important;
+}
+
+
+.form-container {
+    min-width: 450px;
+    border: 1px solid #EEEEEE;
+    border-top: 5px solid #D40029;
+    border-radius: 5px;
+    margin: 2% auto auto auto;
+    justify-content: center;
+}
+
+.form {
+    padding: 7%;
+    height: auto;
+    border-bottom: 8px solid #EEEEEE;
+}
+
+.input-form {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 2%;
+    border: 1px solid #ACACAC;
+    border-radius: 4px;
+}
+
+.fogotten-password-link {
+    color: #D40029;
+    cursor: pointer !important;
+    text-decoration: underline;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.fogotten-password-link:hover {
+    color: #D40029;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+
+.button {
+    background-color: #D40029;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 13px;
+}
+
+.button:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+}
+
+/* Account container */
+
+.account-container {
+    padding: 0% 7% 0% 7%;
+    height: auto;
+}
+
+.check-text {
+    margin-left: 20px;
+}
+
+.button-account {
+    background-color: white;
+    border: 1px solid #D40029;
+    color: #D40029;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 13px;
+    margin-top: 10px;
+}
+
+.button-account:hover {
+    background-color: #fbe6e5;
+    transition: background-color 0.2s linear;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #424242;
+    color: white;
+    margin-top: 3%;
+    justify-content: center;
+    height: auto;
+}
+
+.contact-div {
+    margin: auto;
+    justify-content: center;
+}
+
+
+.privacy {
+    justify-content: center;
+    align-items: center;
+}
+
+.help-div {
+    justify-content: center;
+}

@@ -1,0 +1,10 @@
+.adminnavigation {
+    border-right: 4px solid #F6F6F6;
+    height: 100%;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+ul {
+    width: 100%;
+}

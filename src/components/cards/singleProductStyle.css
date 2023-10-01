@@ -1,0 +1,25 @@
+.row {
+    flex-wrap: wrap !important;
+    position: relative;
+}
+
+.product-info {
+    overflow-x: hidden;
+    height: auto;
+}
+
+.image-container {
+    height: 500px;
+    position: sticky !important;
+}
+
+.block {
+    border-bottom: 1px solid #cccc;
+}
+/* Carousel style */
+
+.slider img,
+.card-omage {
+    height: 450px;
+    object-fit: cover;
+}

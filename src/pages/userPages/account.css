@@ -1,0 +1,95 @@
+/* User navigation */
+.navigation-container {
+    margin-bottom: 2%;
+}
+
+.navigation-container a {
+    color: grey;
+}
+
+.arrow-left {
+    transform: scale(0.8);
+}
+
+.accountInfo {
+    width: 80%;
+    display: flex;
+    margin: 1% 9% 0% 9%;
+}
+
+
+/* Nav */
+.nav-bar {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 3px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	/* justify-content: center; */
+    align-items: stretch;
+}
+
+.nav {
+	padding: 20px 25px 30px;
+	color: black;
+    font-weight: 400;
+	text-align: center;
+    text-decoration: none;
+}
+
+
+.nav:hover {
+    color: black;
+    /* border-bottom: 5px solid #D40029; */
+}
+
+.active {
+    border-bottom: 5px solid #D40029;
+}
+
+/* Section style */
+
+.global-profile {
+    background-color: #F7F7F7;
+    overflow-x: hidden;
+}
+
+.container-profilee {
+    width: 80%;
+    background-color: #F7F7F7;
+    margin: auto;
+}
+
+.info-containerr {
+    margin-left: 20% !important;
+}
+.p-text {
+    width: 75%;
+    text-align: start;
+}
+.card-onee {
+    height: 550px;
+    text-align: center;
+    margin: 2% 0% 0% 0%;
+    padding-top: 3%;
+    background-color: white;
+}
+
+.card-twoo {
+    height: 500px;
+    margin: 2% 0% 0% 0%;
+    text-align: center;
+    padding-top: 5%;
+    background-color: white;
+}
+
+.edit-info {
+    width: 250px;
+    margin: 75px auto 1% auto;
+    padding: 2%;
+    border: none;
+    background-color: #D40029;
+    color: white;
+}
+
